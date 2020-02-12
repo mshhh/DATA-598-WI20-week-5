@@ -22,11 +22,11 @@ This is a basic example which shows you how to solve a common problem:
 library(simiao)
 ## basic example code
 ```
-## Licenses
-Test and figures: CC-BY-4.0
-Code: See the DESCRIPTION file
-Data: MIT + file LICENSE attribution requested in reuse
+## Licenses    
+Test and figures: CC-BY-4.0    
+Code: See the DESCRIPTION file    
+Data: MIT + file LICENSE attribution requested in reuse    
 
-
-##Code of Conduct 
-See the CODE_OF_CONDUCT file
+    
+## Code of Conduct    
+See the CODE_OF_CONDUCT file    
