@@ -1,0 +1,18 @@
+Package: simiao
+Type: Package
+Title: DATA-598-Week-5
+Version: 0.1.0
+Author: Sihao Miao
+Maintainer: The package maintainer <simiao@uw.edu>
+Description: More about what it does (maybe more than one line)
+    See <https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-2242-0906> for a description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.6.0)
+Imports: 
+    dplyr (>= 0.8.3)
+usethis: :use_vignette(“name-of-my-vignette-file”)
+RoxygenNote: 7.0.2
+
+

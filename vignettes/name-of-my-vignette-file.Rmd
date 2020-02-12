@@ -1,0 +1,53 @@
+---
+title: "name-of-my-vignette-file"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{name-of-my-vignette-file}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+bibliography: example.bib
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(simiao)
+```
+
+```{r starwars-plot, fig.cap= "A ggplot of starwars stuff"}
+library(tidyverse)
+
+starwars %>%
+  filter(species =="Human")%>% ggplot()+aes(x=height, y=mass)+geom_point()
+```
+
+In Figure \@(fig::starwars-plot) we can see that ...
+
+We can see the article "Replication". [@kornberg1980replication]      
+
+[@orgel1992molecular] says something about molecular replication.
+
+```{r}
+knitr::read_chunk('my-external-code.R')
+```
+
+```{r set-up-the-data, eval=FALSE}
+
+```
+
+```{r set-up-and-print-the-data, echo=FALSE}
+<<set-up-the-data>>
+<<print-the-data>>
+```
+
+```{r plot-the-data,echo=FALSE}
+
+```
+
+  
+# References cited
