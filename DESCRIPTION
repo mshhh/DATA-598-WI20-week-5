@@ -9,7 +9,7 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: my description
-License: What license it uses
+License: MIT + file LICENSE
 Depends: 
     dplyr,
     knitr,
