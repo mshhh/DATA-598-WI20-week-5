@@ -2,6 +2,7 @@
 # simiao
 
 <!-- badges: start -->
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mshhh/DATA-598-Week-5/master?urlpath=rstudio)
 <!-- badges: end -->
 
 The goal of simiao is to ...
